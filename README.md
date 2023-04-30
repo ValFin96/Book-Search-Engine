@@ -2,7 +2,7 @@
 
 This is a Google Books API search engine application that has been refactored to use a GraphQL API built with Apollo Server. The app is built using the MERN stack with a React front-end, MongoDB database, and Node.js/Express.js server and API.
 
-The application allows users to search for books and save their search results to the back end. This application is deployed on Heroku with a MongoDB database using MongoDB Atlas. You can access it by following this link: []
+The application allows users to search for books and save their search results to the back end. This application is deployed on Heroku with a MongoDB database using MongoDB Atlas. You can access it by following this [link](https://quiet-thicket-72056.herokuapp.com/):
 
 ## Technologies Used
 
