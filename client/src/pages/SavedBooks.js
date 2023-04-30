@@ -32,12 +32,8 @@ const SavedBooks = () => {
       });
 
       if (!response.ok) {
-        throw new Error('Oops! Something went wrong!');
+        throw new Error('Something went wrong!');
       }
-
-      // const updatedUser = await response.json();
-      // setUserData(updatedUser);
-      // upon success, remove book's id from localStorage
       removeBookId(bookId);
     } catch (err) {
       console.error(err);
